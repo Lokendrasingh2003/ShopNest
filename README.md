@@ -36,11 +36,13 @@ Inside the `backend/` folder, ensure your `.env` looks like this:
 ```env
 PORT=5000
 NODE_ENV=development
-MONGO_URI=mongodb://127.0.0.1:27017/shopnest
+MONGO_URI=your_mongodb_atlas_connection_string
 JWT_SECRET=super_secret_key
 RAZORPAY_KEY_ID=your_key_id
 RAZORPAY_KEY_SECRET=your_key_secret
 ```
+
+> For deployment, use a cloud MongoDB URI such as MongoDB Atlas instead of a localhost address. Render and other hosting platforms cannot access your local MongoDB server.
 
 From the **root folder** `shopnest/`, trigger a full install across environments:
 ```bash
