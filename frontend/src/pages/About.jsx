@@ -25,8 +25,7 @@ const About = () => {
           <h1 style={styles.title}>Your go-to destination for modern essentials.</h1>
           <p style={styles.description}>
             ShopNest is a premium e-commerce experience built for shoppers who value quality,
-            convenience, and thoughtful design. We bring together the best products in one place,
-            with a smooth shopping journey from browse to checkout.
+            convenience, and thoughtful design. We bring together the best products in one place
           </p>
           <div style={styles.actions}>
             <Link to="/shop" className="btn">Explore Products</Link>
