@@ -6,7 +6,15 @@
 
 ---
 
-## 🛠 Tech Stack Details
+## �‍💻 About the Developer
+Built by Lokendra Singh, a passionate full-stack developer focused on creating modern, scalable web applications with real-world features.
+
+- GitHub: [Lokendrasingh2003](https://github.com/Lokendrasingh2003)
+- LinkedIn: [Lokendra Singh](https://www.linkedin.com/in/lokendra-singh-rajawat-071095280/)
+
+---
+
+## �🛠 Tech Stack Details
 
 - **Frontend:** Pure React.js (`react-scripts`), Redux Toolkit (for Cart state management), AuthContext API (for JWT user sessions).
 - **Backend:** Node.js, Express.js architecture mapped with middleware-based routing.
